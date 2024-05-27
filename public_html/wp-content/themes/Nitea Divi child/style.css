@@ -1,0 +1,70 @@
+/*
+ Theme Name:     Nitea Divi Child
+ Theme URI:      http://www.elegantthemes.com/gallery/divi/
+ Description:    Child theme for Divi
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+@import url("../Divi/style.css");
+
+.et_mobile_menu .menu-item-has-children > a 
+{
+	background-color: transparent;
+	font-weight: 600;
+}
+
+.text-center, .aligncenter 
+{
+    text-align: center;
+}
+
+.clear 
+{
+	clear: both;
+}
+
+
+/*Footer*/
+.footer-widget .et_pb_widget
+{
+	width:100%;
+
+}
+
+/*Form*/
+/*Form Success / Error text*/
+
+.et-pb-contact-message p 
+{
+	color: #F5F5F5;
+	font-size: 24px;
+	text-align: left;
+	margin-top: 5px;
+	line-height: 28px;
+}
+
+.et-pb-contact-message ul
+{
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.et-pb-contact-message ul li
+{
+	color: #d9534f;
+	list-style-type: none;
+	text-align: left;
+	margin-top: 5px;
+	line-height: 18px;
+
+}
+
+/*Mail Copy text*/
+.et_pb_contact_right p
+{
+	color: white;
+}

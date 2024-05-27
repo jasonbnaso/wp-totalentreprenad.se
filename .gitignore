@@ -1,0 +1,12 @@
+/public_html/**
+
+!/public_html/.htaccess
+!/public_html/wp-config.php
+
+!/public_html/wp-content
+!/public_html/wp-content/**
+
+/public_html/wp-content/themes/**/node_modules
+/public_html/wp-content/themes/**/bower_components
+
+**/.DS_Store
